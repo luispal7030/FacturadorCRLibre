@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
 
 <head>
     <meta charset="utf-8" />
@@ -8,18 +8,18 @@
     <title>Hero</title>
 
 
-    <link type="text/css" href="./assets/css/vendor-bootstrap-datepicker.css" rel="stylesheet" />
-    <link type="text/css" href="./assets/css/vendor-morris.css" rel="stylesheet" />
+    <link type="text/css" href="../assets/css/vendor-bootstrap-datepicker.css" rel="stylesheet" />
+    <link type="text/css" href="../assets/css/vendor-morris.css" rel="stylesheet" />
 
     <!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex" />
 
     <!-- App CSS -->
-    <link type="text/css" href="./assets/css/app.css" rel="stylesheet" />
-    <link type="text/css" href="./assets/css/app.rtl.css" rel="stylesheet" />
+    <link type="text/css" href="../assets/css/app.css" rel="stylesheet" />
+    <link type="text/css" href="../assets/css/app.rtl.css" rel="stylesheet" />
 
     <!-- Simplebar -->
-    <link type="text/css" href="./assets/vendor/simplebar.css" rel="stylesheet" />
+    <link type="text/css" href="../assets/vendor/simplebar.css" rel="stylesheet" />
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 
@@ -779,29 +779,29 @@
 
 
     <!-- jQuery -->
-    <script src="./assets/vendor/jquery.min.js"></script>
+    <script src="../assets/vendor/jquery.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="./assets/vendor/popper.js"></script>
-    <script src="./assets/vendor/bootstrap.min.js"></script>
+    <script src="../assets/vendor/popper.js"></script>
+    <script src="../assets/vendor/bootstrap.min.js"></script>
 
     <!-- Simplebar -->
     <!-- Used for adding a custom scrollbar to the drawer -->
-    <script src="./assets/vendor/simplebar.js"></script>
+    <script src="../assets/vendor/simplebar.js"></script>
 
 
     <!-- Vendor -->
-    <script src="./assets/vendor/Chart.min.js"></script>
-    <script src="./assets/vendor/moment.min.js"></script>
+    <script src="../assets/vendor/Chart.min.js"></script>
+    <script src="../assets/vendor/moment.min.js"></script>
 
     <!-- APP -->
-    <script src="./assets/js/color_variables.js"></script>
-    <script src="./assets/js/app.js"></script>
+    <script src="../assets/js/color_variables.js"></script>
+    <script src="../assets/js/app.js"></script>
 
 
-    <script src="./assets/vendor/dom-factory.js"></script>
+    <script src="../assets/vendor/dom-factory.js"></script>
     <!-- DOM Factory -->
-    <script src="./assets/vendor/material-design-kit.js"></script>
+    <script src="../assets/vendor/material-design-kit.js"></script>
     <!-- MDK -->
 
 
@@ -832,12 +832,12 @@
     </script>
 
 
-    <script src="./assets/vendor/bootstrap-datepicker.min.js"></script>
-    <script src="./assets/js/datepicker.js"></script>
-    <script src="./assets/vendor/Chart.min.js"></script>
-    <script src="./assets/vendor/morris.min.js"></script>
-    <script src="./assets/vendor/raphael.min.js"></script>
-    <script src="./assets/js/charts_retail.js"></script>
+    <script src="../assets/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="../assets/js/datepicker.js"></script>
+    <script src="../assets/vendor/Chart.min.js"></script>
+    <script src="../assets/vendor/morris.min.js"></script>
+    <script src="../assets/vendor/raphael.min.js"></script>
+    <script src="../assets/js/charts_retail.js"></script>
     <script>
         $(".check-sales").click(function() {
             $('.sale').not(this).prop('checked', this.checked);
@@ -851,6 +851,7 @@
         let today = new Date();
         let dd = today.getDate();
         let mm = today.getMonth() + 1;
+        console.log(mm);
         const yyyy = today.getFullYear();
 
         if (dd < 10) {
